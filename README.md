@@ -2,8 +2,11 @@
 
 This project tracks stats of the 2022 Russian-Ukraine war.
 
-default.csv is a human-readable CSV file tracking Russian losses during the war (with data sourced from The Kyiv Independent).
-format1.csv (which can be generated from default.csv using makeFormat1.py) is a more computer oriented format (useful for graphing the data).
+Formats:
+
+- default.csv is a human-readable CSV file tracking Russian losses during the war (with data sourced from The Kyiv Independent).
+- format1.csv (which can be generated from default.csv using makeFormat1.py) is a more computer oriented format (useful for graphing the data).
+- format2.csv (which can be generated from default.csv using makeFormat2.py) is a more computer oriented format of the losses each day rather than total losses at that date.
 
 I made a graph of the data using format1, available on [Observable](https://observablehq.com/@realandrew/russian-losses-in-the-2022-war-with-ukraine).
 
